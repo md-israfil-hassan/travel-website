@@ -1,0 +1,263 @@
+/* Google Font Sens style */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wdth,wght@0,75..100,800;1,75..100,800&family=Sen:wght@400..800&display=swap');
+
+*{
+    font-family: "Sen", sans-serif;
+}
+:root{
+
+--primary-color:#FF5400;
+--secand-color:#131318;
+--font-weight: 700;
+--primary-dicription-color:#5e5e5eb2;
+}
+/* nav style  */
+
+nav{
+    margin: 40px 100px 20px 100px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+align-items: center;
+}
+.nav-title{
+    font-size: 1.4rem;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+.travel{
+color: var(--primary-color);
+}
+.nav-list-item ul > li, a{
+text-decoration: none;
+    list-style: none;
+}
+.nav-list-item ul{
+    font-size: 17px;
+    font-weight: 500;
+display: flex;
+gap: 35px;
+}
+.nav-list-item a{
+color: var(--secand-color);
+}
+
+/* header travel style.......>>>>... */
+
+.travel-container{
+background-image: linear-gradient(rgba(0, 0, 0, 0.331), rgba(0, 0, 0, 0.482)), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+border-radius: 15px;
+background-size: 100%;
+background-repeat: no-repeat;
+padding-bottom: 18%;
+margin: auto 80px;
+
+}
+.travel-content, .travel-box{
+text-align: center;
+
+}
+.travel-content h1{
+color: #fff;
+font-size: 3.6rem;
+font-weight:800;
+height: 50px;
+}
+.travel-content p{
+    margin: auto;
+    width: 680px;
+color: #ffffffb5;
+font-weight: 200;
+margin-bottom: 20px;
+}
+.travel-content{
+    position: relative;
+   top:100px ;
+
+}
+
+.travel-box{
+    margin:auto 150px;
+    background-color: #ffffff39 ;
+    border-radius: 13px;
+    gap: 17px;
+   justify-content: center;
+    position: relative;
+top: 140px;
+display: flex;
+align-items: center;
+width: 770px;
+height: 77px;
+}
+.travel-box input, select{
+    cursor: pointer;
+padding: 15px 18px;
+border-radius: 7px;
+color:#00000063;
+font-size: 15px;
+}
+#search{
+    padding: 15px 6px;
+  
+}
+#travel{
+    padding: 15px 47px;
+}
+.btn-primary{
+    cursor: pointer;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 0px;
+color: #fff;
+font-size: 1rem;
+background-color: var(--primary-color);
+}
+
+/*  populer Tours ........>>>*/
+.tours{
+margin: 80px;
+    display: flex;
+    gap: 90px;
+}
+.tours-content h2{
+color: var(--secand-color);
+font-size:2.3rem;
+font-weight:750;
+}
+.tours-content ul > li, p{
+    font-size: 15px;
+color: var(--primary-dicription-color);
+font-weight: var(--font-weight);
+}
+.tours-content p{
+width: 500px;
+}
+.tours-content ul > li{
+width: 450px;
+margin-bottom: 25px;
+}
+.tours-img img{
+width: 480px;
+}
+.tours-btn{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    border-radius: 7px;
+    border: 0px;
+    color: #fff;
+    background-color: var(--primary-color);
+    padding: 13px 35px;
+    cursor: pointer;
+}
+/* <!-- destination resort section -->*/
+
+.resort h2{
+text-align: center;
+font-size: 2.4rem;
+font-weight: var(--font-weight);
+color: var(--secand-color);
+}
+.resort p{
+    margin: auto;
+    text-align: center;
+width: 600px;
+margin-bottom: 40px;
+}
+.row {
+display: flex;
+margin: auto 85px;
+}
+.row img{
+    width: 95%;
+}
+.grid{
+display: grid;
+margin: -15px 70px 10px 70px;
+grid-template-columns: repeat(3, 1fr);
+}
+.grid .srilanka img{
+width: 85%;
+height: 90%;
+}
+.grid .america img{
+width: 109%;
+height: 90%;
+}
+.grid .kasmir img{
+width: 75%;
+height: 90%;
+margin-left: 20px;
+}
+.flex{
+    margin: -20px 90px;
+display: flex;
+}
+.flex img{
+width:96%;
+}
+
+/* img above text >>>>>>>>>>>>>*/
+
+.text-container{
+position: relative;
+text-align: center;
+color: #fff;
+font-weight: var(--font-weight);
+font-size: 1.5rem;
+}
+.centered{
+    position: relative;
+    top: -50%;
+    text-shadow: 5px 5px 5px  #000000fe;
+}
+
+/* card Service style */
+
+.card-section{
+margin-top: 70px;
+
+}
+.card-section > h2{
+    font-weight:740;
+text-align: center;
+font-size:2.3rem ;
+}
+.card-section > p{
+    margin: auto;
+text-align: center;
+font-size: 1rem;
+width: 700px;
+color: #00000058;
+font-weight: var(--font-weight);
+margin-bottom: 40px;
+}
+
+.card-container{
+display:flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 20px;
+}
+.card{
+    border-radius: 10px;
+}
+.card img{
+width: 15%;
+}
+.card h2{
+color: var(--secand-color);
+font-weight: var(--font-weight);
+height: 38px;
+}
+.card p{
+color: var(--primary-dicription-color);
+width: 470px;
+font-size: 14px;
+}
+.card img, h2, p{
+margin:15px 0px 20px 20px;
+}
+.card h2, p{
+margin-top: -18px;
+}
