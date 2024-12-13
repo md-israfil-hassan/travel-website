@@ -216,6 +216,7 @@ font-size: 1.5rem;
 
 .card-section{
 margin-top: 70px;
+margin-bottom: 70px;
 
 }
 .card-section > h2{
@@ -260,4 +261,142 @@ margin:15px 0px 20px 20px;
 }
 .card h2, p{
 margin-top: -18px;
+}
+
+/* <!-- discount section - */
+.discount h2{
+text-align:center ;
+font-size: 2.4rem;
+font-weight: var(--font-weight);
+color: var(--secand-color);
+}
+.discount p{
+    color: var(--primary-dicription-color);
+    margin: 0px auto 30px;
+text-align: center;
+width: 650px;
+}
+.tour img{
+    margin: 10px 96px;
+width: 85%;
+}
+.tour{
+    position: relative;
+
+}
+
+.tour-form{
+    background-color: #ffffffd2;
+position: absolute;
+right: 140px;
+top:60px;
+padding: 25px;
+height: 290px;
+width: 460px;
+border-radius: 15px;
+}
+.tour-form ul{
+    margin-top: 15px;
+    list-style: none;
+display: flex;
+gap: 15px;
+color: #1313189b;
+margin-left: -16px;
+}
+.tour-form ul > li > i, h4{
+color: var(--primary-color);
+} 
+.tour-form h3{
+    font-weight: 750;
+font-size: 1.4rem;
+margin-left: 20px;
+}
+.tour-form p{
+    font-size: 13px;
+    font-weight: var(--font-weight);
+    line-height: 23px;
+ width: 460px;
+ color: var(--primary-dicription-color);
+ margin-left: 20px;
+text-align: left;
+height: 60px;
+}
+
+.tour-form h4{
+font-size: 20px;
+margin-left: 22px;
+font-weight: 800;
+height: 30px;
+}
+.tour-btn{
+    background-color: var(--primary-color);
+font-weight: var(--font-weight);
+    border: 0px;
+    font-size: 1.1rem;
+    color: #fff;
+    border-radius: 6px;
+    margin-left: 22px;
+    margin-top: -25px;
+padding: 12px 30px;
+cursor: pointer;
+}
+.tour-bottom-btn{
+    margin:30px 520px 80px;
+    color: #FFF;
+    border: 0px;
+    font-size: 1.2rem;
+    border-radius: 9px;
+    background-color: var(--primary-color);
+padding: 13px 20px;
+
+}
+/* tuor form left side style */
+.tour-form-left{
+    background-color: #ffffffd2;
+position: absolute;
+left: 140px;
+top:60px;
+padding: 25px;
+height: 290px;
+width: 470px;
+border-radius: 15px;
+}
+.tour-form-left ul{
+    margin-top: 15px;
+    list-style: none;
+display: flex;
+gap: 15px;
+color: #1313189b;
+margin-left: -16px;
+}
+.tour-form-left ul > li > i, h4{
+    color: var(--primary-color);
+    } 
+    .tour-form-left h3{
+        font-weight: 750;
+    font-size: 1.4rem;
+    margin-left: 20px;
+    }
+    .tour-form-left p{
+        font-size: 13px;
+        font-weight: var(--font-weight);
+        line-height: 23px;
+     width: 460px;
+     color: var(--primary-dicription-color);
+     margin-left: 20px;
+    text-align: left;
+    height: 60px;
+    }
+.tour-form-left h4{
+    font-size: 20px;
+    margin-left: 22px;
+    font-weight: 800;
+    height: 30px;
+    }
+
+/* placement section style */
+
+.place-container{
+display: flex;
+
 }
